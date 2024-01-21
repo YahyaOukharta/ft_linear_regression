@@ -32,7 +32,7 @@ theta_cache = ThetaCache(".cache")
 class LinearRegression:
     SAVED_MODEL_NAME = "ft_model"
     LEARNING_RATE = 0.01
-    N_ITERATIONS = 100
+    N_ITERATIONS = 400
 
     def __init__(self, training_data_filename):
         self.training_data_filename = training_data_filename
